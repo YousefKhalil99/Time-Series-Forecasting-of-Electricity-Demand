@@ -19,7 +19,8 @@ To implement this approach, we use the skforecast library in Python that allows 
 
 Then, we use the trained forecaster to predict the data and produce a 95% prediction interval with a mean, upper bound,lower bound. We measure the performance of this model by what percentage of actual load values in the test data lay within the 95% prediction interval. The model generalized well to new data, with 96% of actual load values being within the 95% prediction interval.
 
-![image](https://user-images.githubusercontent.com/73074313/161027538-85644c3b-c3a2-4154-a97d-06510a2fe8ae.png)
+![image](https://user-images.githubusercontent.com/73074313/161027733-5898a8bd-9b5e-40b6-b590-92741e9b20ca.png)
+
 
 
 
